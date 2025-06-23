@@ -20,10 +20,26 @@ export type ExpEachDatasType={
     text: string;
     link: string;
     buttonName: string;
-
 };
-
 export type ExperiencesDatasType= { 
     cinema: ExpEachDatasType;
     code: ExpEachDatasType;
 };
+export type BioInfosType= {
+    photoUrl: string;
+    name: string;
+    age: string;
+    occupation: string;
+};
+export type BioTextType= {
+    bioTitle: string;
+    bioContent: {
+        paragraphe1: string;
+        paragraphe2: string;
+        paragraphe3: string;
+    }
+};
+export type AboutBioType= {
+    bioInfos: BioInfosType;
+    bioText: BioTextType;
+}

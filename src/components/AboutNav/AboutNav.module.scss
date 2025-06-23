@@ -5,7 +5,8 @@
     display: flex;
     flex-direction: column;
     width: 12vw;
-    margin: 50px 0 0 3vw; 
+    margin: 50px 0 0 3vw;
+    background-color: $third-color;
 }
 .title {
     font-size: 32px;
@@ -25,7 +26,8 @@ li {
 .inactive {
     cursor: pointer;
     font-size: 16px;
-    color: $third-color; 
+    font-weight: $middle-weight;
+    color: $primary-color; 
 }
 .active {
     font-size: 18px;

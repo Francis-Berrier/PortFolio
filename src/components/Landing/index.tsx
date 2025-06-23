@@ -22,8 +22,12 @@ function Landing () {
     if(!homeDatas) return null;
     
     return (
-        <div>
+        <div className={styles.wrapper}>
+            <div className={styles.fond}>
+                <img src='/fonds/gb.webp'/>
+            </div>
             <section className={styles.landingContainer}>
+                
                 <div className={styles.textAccueilContainer}>
                     <h1 className={styles.title}>
                         <span>{homeDatas.title}</span>

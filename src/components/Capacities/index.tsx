@@ -8,7 +8,7 @@ function Capacities ({capacities}: {capacities: string[]}) {
                 return (
                     <span key={`${tag}-${index}`} className= {styles.tag}>{tag}</span>
                 )
-            })};
+            })}
         </div>
     )
 }

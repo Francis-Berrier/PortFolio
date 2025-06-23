@@ -36,7 +36,10 @@ function CinemaExperience () {
                     <FilmCards/>
                 </div>
                 <div className={styles.linkFilmoContainer}>
-                    <a className={styles.linkFilmo} href={cineExpDatas.urlFilmo} target='_blank'>{cineExpDatas.textFilmo}</a>
+                    <a href={cineExpDatas.urlFilmo} target='_blank'>
+                    <Button name={cineExpDatas.textFilmo} />
+                    </a>   
+                    {/* <a className={styles.linkFilmo} href={cineExpDatas.urlFilmo} target='_blank'>{cineExpDatas.textFilmo}</a> */}
                 </div> 
                 
             </section>

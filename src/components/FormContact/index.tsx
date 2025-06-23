@@ -2,6 +2,7 @@ import styles from './FormContact.module.scss';
 import Modal from 'react-modal';
 import emailJs from '@emailjs/browser';
 import { verifEmail } from '../../utils/validateForm';
+import Button from '../Button';
 import type { PageDataType } from '../../types/PageDataType';
 import { useState, useEffect } from 'react';
 import { useLang } from '../LangContext';
@@ -143,7 +144,8 @@ function FormContact() {
                     </textarea>
                 </div>
                 <div className={styles.buttonContainer}>
-                    <button type="submit" className={styles.submitButton}>{contactDatas.labelSubmit}</button> 
+                    {/* <button type="submit" className={styles.submitButton}>{contactDatas.labelSubmit}</button>  */}
+                    <button type="submit" className={styles.submitButton}><Button name={contactDatas.labelSubmit}/></button>
                 </div>
                 
             </form>

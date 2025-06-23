@@ -43,7 +43,20 @@
 
     },
     "aboutBio": {
-
+        "bioInfos": {
+            "photoUrl": "/portrait_self.webp",
+            "name": "Francis Berrier",
+            "age": "41 ans",
+            "occupation": "Web Développeur Full-Stack"
+        },
+        "bioText": {
+            "bioTitle": "Quel est mon parcours?",
+            "bioContent": {
+                "paragraphe1": "Après de nombreuses années à travailler avec bonheur pour le cinéma, sur de nombreux projets et dans différentes fonctions, j'ai ressenti le besoin de me réinventer, de trouver de nouveaux challenges en accord avec ma vie familiale. De cette première carrière j'y ai appris le travail d'équipe, la rigueur, le goût de l'effort et le dévouement pour un projet. Parfaitement ignorant du développement web, j'ai en moins d'un an acquis les connaissances me permettant de postuler à un emploi de developpeur web, tout en continuant quotidiennement à me former à de nouvelles connaissances",
+                "paragraphe2": "Mes compétences en terme d'organisation, d'autonomie et de créativité au service d'un projet, hérité de mon passé professionnel, me permettent d'être force de proposition au service d'un projet collectif.",
+                "paragraphe3": "On me décrit comme quelqu'un de calme et efficace sous pression, capable de remise en cause tout en restant force de proposition au service d'un projet"
+            }
+        }    
     },
     "aboutExperience": {
         "cinema": {

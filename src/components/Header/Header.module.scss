@@ -12,6 +12,8 @@ header {
     align-items: center;
     box-sizing: border-box;
     z-index: 10;
+    background-color: $third-color;
+    border-bottom: 2px solid $border-color;
 }
 ul {
     all:unset;
@@ -26,8 +28,8 @@ li {
     all: unset;
     font-size: 18px;
     font-weight: $middle-weight;
+    color: $primary-color;
     cursor: pointer;
-    border-bottom: 2px solid white;
     &:hover {
         color: $secondary-color;
         

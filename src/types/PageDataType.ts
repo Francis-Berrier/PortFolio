@@ -1,4 +1,4 @@
-import type { AboutDatasType, ExperiencesCinemaDatasType, ExperiencesDatasType } from "./AboutTypes";
+import type { AboutDatasType, ExperiencesCinemaDatasType, ExperiencesDatasType, AboutBioType } from "./AboutTypes";
 import type { HeaderDataType } from "./HeaderDataType";
 import type { HomeDataType } from "./HomeDataType";
 import type { ContactDatasType } from "./ContactType";
@@ -11,9 +11,7 @@ export type PageDataType= {
 
     },
     aboutNav: AboutDatasType;
-    aboutBio: {
-
-    },
+    aboutBio: AboutBioType;
     aboutExperience: ExperiencesDatasType;
     aboutExperienceCinema: ExperiencesCinemaDatasType;
     aboutFormation: {
