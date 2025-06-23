@@ -1,0 +1,35 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.navAbout {
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    margin: 50px 0 0 3vw; 
+}
+.title {
+    font-size: 32px;
+    color: $secondary-color;
+    font-weight: $heavy-weight;
+    margin-bottom: 15px;
+}
+.navList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 10px;
+}
+li {
+    border: 1px black solid;
+}
+.inactive {
+    cursor: pointer;
+    font-size: 16px;
+    color: $third-color; 
+}
+.active {
+    font-size: 18px;
+    font-weight: $heavy-weight;
+    color: $secondary-color;
+    
+}

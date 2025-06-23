@@ -1,0 +1,38 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 30vw;
+    border-radius: 10px;
+    padding: 30px; 
+    background-color: #dfe7f16e;
+    
+}
+
+.entete {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 25px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.logo {
+    width: 80px;
+}
+
+.text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-top: 1px solid $third-color;
+    border-bottom: 1px solid $third-color;
+    font-size: 18px;
+
+}
+

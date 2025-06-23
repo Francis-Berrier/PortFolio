@@ -1,0 +1,43 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.landingContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 100%;
+    padding: 100px;
+}
+.textAccueilContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 25px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 54px;
+    color: $secondary-color;
+    font-weight: $heavy-weight;
+    margin-top: 50px;
+    row-gap: 5px;
+
+}
+.introText {
+    width: 500px;
+    font-size: 18px;
+
+
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+
+}
+.carousel {
+    width: 200px;
+    height: 300px;
+}

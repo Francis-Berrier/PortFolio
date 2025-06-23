@@ -1,0 +1,21 @@
+$primary-color: rgba(246, 246, 246, 1);
+$secondary-color: #f14f27d0;
+$third-color: #000000;
+$fourth-color: #FFFFFF;
+$fifth-color: #f14f2770;
+$border-color: #adacac7c;
+
+/*font*/
+$primary-font: "Monserrat", sans-serif;
+
+/*font-weight*/
+$light-weight: 400;
+$middle-weight: 500;
+$heavy-weight: 700;
+$super-heavy-weight: 900;
+
+/*breakpoints*/
+$breakpoints: (
+    "tablet": 994px,
+    "mobile" : 768px
+)

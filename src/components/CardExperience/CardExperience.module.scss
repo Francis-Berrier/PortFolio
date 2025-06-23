@@ -1,0 +1,47 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.cardContainer {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-radius: 25px;
+    border: 1px solid $border-color;
+    box-shadow:
+    4px 4px 20px #74757528,
+    -4px -4px 20px #74757528;
+
+}
+.carouselContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px 0 0 25px;
+    
+}
+.infosContainer {
+    padding: 25px 50px 15px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.title {
+    margin: auto;
+    font-size: 30px;
+    font-weight: $heavy-weight;
+    color: $secondary-color;
+
+}
+.text {
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+
+}
+.button {
+    padding: 15px 0 15px 20px;
+    margin: auto;
+    
+}

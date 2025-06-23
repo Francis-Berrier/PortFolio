@@ -1,0 +1,14 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.experiencesContainer {
+    padding: 50px 30px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+}
+.card {
+    width: 80%;
+    min-height: 200px;
+}

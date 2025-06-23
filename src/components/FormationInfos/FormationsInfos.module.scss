@@ -1,0 +1,45 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.formationInfos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+
+}
+
+.titre {
+    all: unset;
+    margin: 0px;
+    padding: 0; 
+    font-size: 24px;
+    font-weight: $heavy-weight;
+    color: $secondary-color;
+  
+}
+
+.infosContainer {
+    margin: 20px 0 20px 0;
+    font-size: 12px;
+    font-weight: $light-weight;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    
+    svg {
+        height: 10px;
+        width: auto;
+        color: $third-color;
+    }
+}
+.infoPair {
+    display:flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.infos {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}

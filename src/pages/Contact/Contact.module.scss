@@ -1,0 +1,26 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.contactContainer {
+    margin: auto;
+    width: 50%;
+    margin-top: 15px;
+    
+}
+.contactIntro {
+   margin: auto;
+}
+.title {
+    font-size: 40px;
+    font-weight: $heavy-weight;
+    color: $secondary-color;
+}
+.introText {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    width: 90%;
+}
+.formContact {
+    margin: auto;
+}

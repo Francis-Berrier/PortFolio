@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Page photographe Sophie Bluel",
+        "codeUrl": "https://github.com/Francis-Berrier/Site-Sophie-Bluel.git",
+        "codeImgUrl": "",
+        "description": "Dans le cadre d'un exercice pour développer le frontend d'un site en HTML, JS, et CSS sans bibliothèque ou framework, j'ai choisi de structurer selon une architecture MVC en JS exclusif pour générer un site One Page en rendu client. A noter que le backend n'est pas codé par mes soins",
+        "langages": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "id": 2,
+        "name": "Site agence immobiliere Kasa",
+        "codeUrl": "https://github.com/Francis-Berrier/kasa.git",
+        "codeImgUrl": "",
+        "description": "La demande était de développer le frontend du site conformément à une maquette fournie en React. Dans ce projet, j'ai en outre apporté une gestion des erreurs centralisée et une gestion du contenu pour le rendre prêt à une éventuelle traduction via ",
+        "langages": ["React", "Sass"]
+    },
+    {
+        "id": 3,
+        "name": "Backend d'un site de notation de livres",
+        "codeUrl": "https://github.com/Francis-Berrier/VieuxGrimoireBackend.git",
+        "codeImgUrl": "",
+        "description": "Pour ce projet, il nous était demandé de développer le backend d'un site de notation de livres grâce à Node.js, express et une base de données MongoDb. Pour ce projet, je me suis attaché à le rendre proche d'un état production, dans la logique modulaire et la sécurité. J'ai par ailleurs implanté un monitoring des erreurs via un journal de logs. En plus, afin de parfaire mon apprentissage, j'ai choisi de développer sur une autre branche Git une version fonctionnant avec PostGreSql et prisma.",
+        "langages": ["Node.Js", "Express", "MongoDb", "PostGreSql"]
+    },
+    {
+        "id": 4,
+        "name": "Portfolio Francis Berrier",
+        "codeUrl": "",
+        "codeImgUrl": "",
+        "description": "",
+        "langages": ["React", "Sass", "Next.Js"]
+    }
+]

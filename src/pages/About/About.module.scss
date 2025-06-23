@@ -1,0 +1,21 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.aboutNav {
+    position:sticky;
+    height: 100%;
+    top:0;
+    
+}
+.aboutMain {
+    flex: 1;
+    margin-left: 15px;
+    height:auto;
+    overflow-y: auto;
+}

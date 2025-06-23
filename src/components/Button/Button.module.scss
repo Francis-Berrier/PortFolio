@@ -1,0 +1,17 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.button {
+    width: fit-content;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    font-weight: $heavy-weight;
+    border: 1px solid $primary-color;
+    background-color: #c3c4f7b0;
+    cursor: pointer;
+
+    &:hover{
+        background-color:#6568eeb0 ;
+        color: $primary-color;
+    }
+}
