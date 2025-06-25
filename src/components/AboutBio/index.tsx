@@ -3,7 +3,7 @@ import { useLang } from '../../components/LangContext';
 import { useState, useEffect } from 'react';
 import { getLangData } from '../../utils/getStoreDatas';
 import type { PageDataType } from '../../types/PageDataType';
-import type { AboutBioType, BioInfosType, BioTextType } from '../../types/AboutTypes';
+import type { AboutBioType } from '../../types/AboutTypes';
 
 function AboutBio () {
 
@@ -23,25 +23,26 @@ function AboutBio () {
 
     return (
         <section className={styles.aboutBioContainer}>
-            <div className={styles.infos}>
-                <div className={styles.photoContainer}>
-                    <img src={aboutBioDatas.bioInfos.photoUrl}/>
+            <div className={styles.aboutBioCard}>
+                <div className={styles.infos}>
+                    <div className={styles.photoContainer}>
+                        <img src={aboutBioDatas.bioInfos.photoUrl}/>
+                    </div>
+                    <div className={styles.nameBio}>{aboutBioDatas.bioInfos.name}</div>
+                    <div className={styles.ageBio}>{aboutBioDatas.bioInfos.age}</div>
+                    <div className={styles.occupationBio}>{aboutBioDatas.bioInfos.occupation}</div>
                 </div>
-                <div className={styles.titleBio}>{aboutBioDatas.bioInfos.name}</div>
-                <div className={styles.ageBio}>{aboutBioDatas.bioInfos.age}</div>
-                <div className={styles.occupationBio}>{aboutBioDatas.bioInfos.occupation}</div>
-            </div>
-            <div className={styles.textBio}>
-                <div className={styles.titleTextBio}>{aboutBioDatas.bioText.bioTitle}</div>
-                <div className={styles.contentTextBio}>
-                    <div>{aboutBioDatas.bioText.bioContent.paragraphe1}</div>
-                    <div>{aboutBioDatas.bioText.bioContent.paragraphe2}</div>
-                    <div>{aboutBioDatas.bioText.bioContent.paragraphe3}</div>
+                <div className={styles.textBio}>
+                    <div className={styles.titleTextBio}>{aboutBioDatas.bioText.bioTitle}</div>
+                    <div className={styles.contentTextBio}>
+                        <div>{aboutBioDatas.bioText.bioContent.paragraphe1}</div>
+                        <div>{aboutBioDatas.bioText.bioContent.paragraphe2}</div>
+                        <div>{aboutBioDatas.bioText.bioContent.paragraphe3}</div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </section>     
     )
-
 }
 
 export default AboutBio

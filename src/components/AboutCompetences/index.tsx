@@ -1,8 +1,11 @@
+import styles from './AboutCompetences.module.scss'
+import AbilityCards from "../AbilityCards";
+
 function AboutCompetences () {
 
     return (
-        <div>
-            About Competences
+        <div className={styles.container}>
+            <AbilityCards/>
         </div>
     )
 }

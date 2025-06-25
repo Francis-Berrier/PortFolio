@@ -3,6 +3,7 @@ import type { HeaderDataType } from "./HeaderDataType";
 import type { HomeDataType } from "./HomeDataType";
 import type { ContactDatasType } from "./ContactType";
 import type { FilmCardDataType } from "./Film";
+import type { AbilitiesType } from "./AbilitiesType";
 
 export type PageDataType= {
     home: HomeDataType;
@@ -17,9 +18,7 @@ export type PageDataType= {
     aboutFormation: {
 
     },
-    aboutCompetences: {
-
-    },
+    aboutCompetences: AbilitiesType;
     filmCardData: FilmCardDataType;
     contact: ContactDatasType;
 

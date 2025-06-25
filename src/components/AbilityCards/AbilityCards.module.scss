@@ -1,0 +1,13 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.container  {
+    padding: 50px 30px 50px 30px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}

@@ -8,11 +8,11 @@
     color: $third-color;
     font-weight: $heavy-weight;
     border: 1px solid $primary-color;
-    background-color: #c3c4f7b0;
+    background-color: $button-clr;
     cursor: pointer;
 
     &:hover{
-        background-color:#6568eeb0 ;
+        background-color: $button-hover;
         color: $primary-color;
     }
 }

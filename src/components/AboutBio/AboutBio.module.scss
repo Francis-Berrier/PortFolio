@@ -2,18 +2,74 @@
 @import "../../assets/styles/utils/variables";
 
 .aboutBioContainer {
-    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+.aboutBioCard {
+    width: 65vw;
     margin: 50px 50px;
     border-radius: 25px;
     border: 1px solid $border-color;
+    background-color: #14183a4f;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 .infos {
-    margin: 30px 0 30px 0;
+    margin: 50px 30px;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 25px;
-    border-right: 1px solid $border-color;
+    box-sizing: border-box;
+}
+.photoContainer {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-bottom: 30px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 60px;
+        object-fit: cover;
+    }
+
+}
+.nameBio{
+    font-size: 18px;
+    font-weight: $middle-weight;
+
+}
+.ageBio {
+    font-size: 12px;
+    font-weight: $light-weight;
+    color: $border-color;
+}
+.occupationBio {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: $heavy-weight;
+    color: $border-color;
+    box-sizing: border-box;
+}
+.textBio {
+    margin: 50px 0;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    border-left: 1px solid $border-color;
+    font-size: 18px;
+}
+.titleTextBio{
+    font-size: 20px;
+    font-weight: $heavy-weight;
+}
+.contentTextBio {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
 }
