@@ -67,7 +67,7 @@ function FormContact() {
             return;
         }
         const template= import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-        const service= import.meta.env.VITE_EMAILJS_SERVICE_IP;
+        const service= import.meta.env.VITE_EMAILJS_SERVICE_ID;
         const key= import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
         emailJs.send(

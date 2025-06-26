@@ -1,10 +1,11 @@
 import styles from './CodeExperience.module.scss'
+import CodeCards from '../CodeCards'
 
 function CodeExperience () {
     return (
-        <main>
-
-        </main>
+        <div>
+            <CodeCards/>
+        </div>
     )
    
 }

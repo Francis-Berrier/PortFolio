@@ -44,7 +44,17 @@ function Experiences() {
         <section className={styles.experiencesContainer}>
             <div className={styles.card}>
                 <CardExperience 
-                    pictures={filmPictures} 
+                    pictures={codePictures}
+                    speed= {2.8}
+                    title={experienceDatas.code.title} 
+                    text={experienceDatas.code.text} 
+                    link={experienceDatas.code.link} 
+                    buttonName={experienceDatas.code.buttonName} />
+            </div>
+            <div className={styles.card}>
+                <CardExperience 
+                    pictures={filmPictures}
+                    speed= {3.2}
                     title={experienceDatas.cinema.title} 
                     text={experienceDatas.cinema.text} 
                     link={experienceDatas.cinema.link} 

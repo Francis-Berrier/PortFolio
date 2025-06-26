@@ -3,12 +3,12 @@ import { NavLink } from 'react-router'
 import Carousel from '../Carousel'
 import Button from '../Button'
 
-function CardExperience({pictures, title, text, link, buttonName}: {pictures: string[], title: string, text: string, link: string, buttonName: string}) {
+function CardExperience({pictures, speed, title, text, link, buttonName}: {pictures: string[], speed: number, title: string, text: string, link: string, buttonName: string}) {
 
     return (
         <article className={styles.cardContainer}>
             <div className={styles.carouselContainer}>
-                <Carousel pictures= {pictures}/>
+                <Carousel pictures= {pictures} speed={speed}/>
             </div>
             <div className={styles.infosContainer}>
                 <h3 className={styles.title}>{title}</h3>

@@ -5,8 +5,8 @@
     position: relative;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to top right, #000000de 50%, #00000000 100%);
-    // box-shadow: 0px 50px 50px #ffffff inset;
+    background-image: linear-gradient(to bottom right, #000000ea 40%, #00000000 100%);
+
 }
 .landingContainer {
     display: flex;
@@ -14,6 +14,12 @@
     row-gap: 40px;
     width: 100%;
     padding: 100px;
+    box-sizing: border-box;
+
+    @include respond-to("mobile"){
+        padding: 30px 30px;
+        
+    }
     
 }
 .fond {
@@ -35,6 +41,8 @@
     flex-direction: column;
     justify-content: flex-start;
     row-gap: 25px;
+    width: 100%;
+    box-sizing: border-box;
 }
 .title {
     display: flex;
@@ -45,12 +53,22 @@
     font-weight: $heavy-weight;
     margin-top: 30px;
     row-gap: 5px;
+    
+    @include respond-to("mobile"){
+        font-size: 36px;
+        margin-top: 10px;
+    }
 
 }
 .introText {
     width: 500px;
     font-size: 18px;
     color: $primary-color;
+    box-sizing: border-box;
+
+    @include respond-to("mobile"){
+        width: 100%;
+    }
 
 
 }

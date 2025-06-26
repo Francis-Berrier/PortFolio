@@ -2,10 +2,11 @@ import styles from './Carousel.module.scss'
 import { useRef, useLayoutEffect, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-function Carousel({pictures}: {pictures: string[]}) {
+function Carousel({pictures, speed}: {pictures: string[], speed: number}) {
 
     const carouselRef = useRef<HTMLDivElement>(null);
     const [width, setWidth] = useState(0);
+    const timeout= speed*1000;
 
     useLayoutEffect(() => {
         if (carouselRef.current) {
@@ -28,7 +29,7 @@ function Carousel({pictures}: {pictures: string[]}) {
             const img = new Image();
             img.src = pic;
         });
-        const timer = setInterval((nextSlide), 3000);
+        const timer = setInterval((nextSlide), timeout);
         return () => clearInterval(timer);
 
     }, [pictures, currentIndex]);

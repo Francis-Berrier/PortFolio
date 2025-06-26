@@ -24,7 +24,7 @@ function Landing () {
     return (
         <div className={styles.wrapper}>
             <div className={styles.fond}>
-                <img src='/fonds/gb.webp'/>
+                <img src='/fonds/fenetre_vscode.webp'/>
             </div>
             <section className={styles.landingContainer}>
                 
