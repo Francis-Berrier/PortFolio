@@ -39,7 +39,6 @@ function CinemaExperience () {
                     <a href={cineExpDatas.urlFilmo} target='_blank'>
                     <Button name={cineExpDatas.textFilmo} />
                     </a>   
-                    {/* <a className={styles.linkFilmo} href={cineExpDatas.urlFilmo} target='_blank'>{cineExpDatas.textFilmo}</a> */}
                 </div> 
                 
             </section>

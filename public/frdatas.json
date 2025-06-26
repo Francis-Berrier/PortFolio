@@ -81,6 +81,12 @@
         "urlFilmo": "https://www.imdb.com/fr/name/nm2588640/?ref_=ttfc_fcr_cr"
 
     },
+    "aboutExperienceCode": {
+        "buttonName": "Retour",
+        "link": "/about/experiences",
+        "title": "Expérience de Développement",
+        "introText": "Voici des projets que j'ai pu développer au cours des mois de formation."
+    },
     "aboutFormation": {
 
     },

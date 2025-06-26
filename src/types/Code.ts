@@ -5,4 +5,4 @@ export type Code={
         codeImgUrl: string;
         description: string;
         langages: string[];
-    }
+}

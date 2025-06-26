@@ -1,0 +1,32 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+.backButton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 30px 0 0;
+    height: 15px;
+}
+.experiencesContainer {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px; 
+}
+.introduction {
+    width: 100%;
+
+}
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: $super-heavy-weight;
+    color: $secondary-color;
+}
+.introText {
+    width: 80%;
+    margin: 70px 0  20px 0;
+    font-size: 18px;
+
+}

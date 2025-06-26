@@ -15,6 +15,12 @@ export type ExperiencesCinemaDatasType= {
     textFilmo: string;
     urlFilmo: string;
 };
+export type ExperiencesCodeDatasType= {
+    buttonName: string;
+    link: string;
+    title: string;
+    introText: string;
+};
 export type ExpEachDatasType={
     title: string;
     text: string;
