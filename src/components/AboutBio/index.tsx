@@ -6,7 +6,7 @@ import type { PageDataType } from '../../types/PageDataType';
 import type { AboutBioType } from '../../types/AboutTypes';
 
 function AboutBio () {
-
+ 
     const { lang } = useLang();
     const [aboutBioDatas, setAboutBioDatas] = useState<AboutBioType>(); 
         

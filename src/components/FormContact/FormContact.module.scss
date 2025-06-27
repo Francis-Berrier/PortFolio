@@ -23,7 +23,11 @@ form {
     column-gap: 40px;
     row-gap: 25px;
     box-sizing: border-box;
-    
+
+    @include respond-to("mobile"){
+        padding: 15px 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 .inputStyle {
     display: flex;
@@ -79,25 +83,12 @@ form {
     padding-top: 20px;
     margin: auto;
 }
-// button {
-//     all:unset;
-// }
+
 .submitButton {
     
     all:unset;
     margin-bottom: 30px;
-    // cursor: pointer;
-    // text-align: center;
-    // font-weight: $heavy-weight;
-    // width: 150px;
-    // height: 50px;
-    // background-color: $secondary-color;
-    // border-radius: 7px;
-
-    // &:hover {
-    //     color: $primary-color;
-    //     background-color: $third-color;
-    // }
+    
 }
 .modal {
     background: #fff;

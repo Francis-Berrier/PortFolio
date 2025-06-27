@@ -30,21 +30,19 @@ function AboutNav () {
         <div className={styles.navAbout}>
             <h2 className={styles.title}>{aboutDatas.title}</h2>
             <nav>
-            <ul className={styles.navList}>
-                {aboutDatas.buttons.map((button) => (
+                <ul className={styles.navList}>
+                    {aboutDatas.buttons.map((button) => (
                         <li key= {`${button.id}`}>
-                                <NavLink to={button.page} 
-                                    className={isActive=== button.id ? styles.active : styles.inactive}
-                                    onClick= {() => handleClick(button)}
-                                >
-                                    {button.name}
-                                </NavLink>
-                            </li>
-                    
-                ))}          
-            </ul>
-        </nav>
-
+                            <NavLink to={button.page} 
+                                className={isActive=== button.id ? styles.active : styles.inactive}
+                                onClick= {() => handleClick(button)}
+                            >
+                                {button.name}
+                            </NavLink>
+                        </li>   
+                    ))}          
+                </ul>
+            </nav>
         </div>
         
     )

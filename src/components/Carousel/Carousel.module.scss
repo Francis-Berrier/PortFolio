@@ -11,6 +11,11 @@
     overflow: hidden;
     box-sizing: border-box;
     border-radius:25px 0 0 25px;
+    z-index: 1;
+
+    @include respond-to("mobile"){
+        border-radius: 0;
+    }
     img {
         position: absolute;
         top: 0;
@@ -19,6 +24,12 @@
         height: 100%;
         object-fit: cover;
         border-radius: 25px 0 0 25px;
+        box-sizing: border-box;
+        z-index: 0;
+
+        @include respond-to("mobile"){
+        border-radius: 0;
+    }
     } 
    
 }

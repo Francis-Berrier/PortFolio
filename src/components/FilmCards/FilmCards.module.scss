@@ -9,4 +9,9 @@
     flex-wrap: wrap;
     row-gap: 40px;
     column-gap: 25px;
+    
+    @include respond-to("mobile"){
+        justify-content: center;
+        row-gap: 25px;
+    }
 }

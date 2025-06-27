@@ -5,6 +5,7 @@ $fourth-color: #c5c5c5;
 $fifth-color: #f14f2770;
 $border-color: #cccbcb8f;
 $card-bgcolor: #14183a4f;
+$mobile-card-bgcolor: #0a0c24b4;
 $tooltip-bgcolor: #1f212c;
 $card-hover: #14183a94;
 $button-clr: #8486fab7;
@@ -21,6 +22,6 @@ $super-heavy-weight: 900;
 
 /*breakpoints*/
 $breakpoints: (
-    "tablet": 994px,
+    "tablet": 1024px,
     "mobile" : 768px
 )

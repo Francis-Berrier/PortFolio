@@ -3,13 +3,18 @@
 
 .button {
     width: fit-content;
-    padding: 15px 25px 15px 25px;
+    padding: 15px 25px;
     border-radius: 20px;
     color: $third-color;
     font-weight: $heavy-weight;
     border: 1px solid $primary-color;
     background-color: $button-clr;
     cursor: pointer;
+
+    @include respond-to("mobile"){
+        padding: 10px;
+        border-radius: 20px;
+    }
 
     &:hover{
         background-color: $button-hover;

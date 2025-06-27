@@ -5,18 +5,30 @@
     position:relative;
     display: flex;
     flex-direction: row;
-    
-    
+
+    @include respond-to("tablet"){
+        flex-direction: column;
+    }   
 }
 .aboutNav {
     position:sticky;
     height: 100%;
     top:10vh;
-    
+    z-index: 10;
+
+    @include respond-to("tablet"){
+        height:auto;
+        width: 100%;
+    }    
 }
 .aboutMain {
     flex: 1;
     margin-left: 15px;
     height:auto;
-    overflow-y: auto;
+    overflow-y: hidden;
+
+    @include respond-to("mobile"){
+        margin-left: 0;
+        padding: 90px 0 0 0;
+    }  
 }

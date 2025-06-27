@@ -10,11 +10,28 @@
     border: 1px solid $border-color;
     background-color: $card-bgcolor;
 
+    @include respond-to("mobile"){
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        border-radius: 0;
+        background-color: $mobile-card-bgcolor;
+        border: 0px solid $border-color;
+    }
+
 }
 .carouselContainer {
+    position: relative;
     width: 100%;
     height: 100%;
     border-radius: 25px 0 0 25px;
+    box-sizing: border-box;
+    z-index:1;
+    
+
+    @include respond-to("mobile"){
+        border-radius: 0;
+        box-sizing: border-box;
+    }
     
 }
 .infosContainer {
@@ -23,12 +40,20 @@
     flex-direction: column;
     row-gap: 20px;
 
+    @include respond-to("mobile"){
+        padding: 20px 20px 15px 20px;
+    }
+
 }
 .title {
     margin: auto;
     font-size: 30px;
     font-weight: $heavy-weight;
     color: $secondary-color;
+
+    @include respond-to("mobile"){
+        font-size: 24px;
+    }
 
 }
 .text {

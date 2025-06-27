@@ -13,6 +13,11 @@
     box-sizing: border-box;
     justify-content: flex-start;
     background-image: linear-gradient(to bottom, #ffffff 40%, #ffffff00);
+
+    @include respond-to("mobile"){
+        width: 125px;
+        height: 180px; 
+    }
      
     
 }
@@ -59,6 +64,10 @@
     color: $primary-color;
     padding-bottom: 10px;
     box-sizing: border-box;
+
+    @include respond-to("mobile"){
+        font-size: 14px;
+    }
     
 }
 .title {
