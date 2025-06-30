@@ -127,7 +127,7 @@
     },
     {
     "id": 19,
-    "imgUrl": "/abilities_logo/_logo.svg",
+    "imgUrl": "/abilities_logo/sass_logo.svg",
     "name": "Sass",
     "description": "Sass est un préprocesseur CSS qui permet l’utilisation de variables, boucles et fonctions pour écrire du code plus maintenable.",
     "precentProgress": 80

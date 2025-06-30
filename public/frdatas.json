@@ -6,6 +6,28 @@
         "buttonContact": "Contact",
         "buttonGit": "Mon Github"
     },
+    "homeSkills": {
+        "entete": "Compétences",
+        "title": "Mes technologies préférées:",
+        "cards": [
+            {
+                "title": "React",
+                "logoUrl": "/abilities_logo/react_logo.svg",
+                "text": "Pour la création de sites et d'applis web réactives et dynamiques, avec React et Next.js, permettant de combiner un rendu serveur des parties statiques pour des performances optimales et la flexibilité du rendu client pour les parties dynamiques."
+            },
+            {
+                "title": "Sass",
+                "logoUrl": "/abilities_logo/sass_logo.svg",
+                "text": "Pour une gestion modulaire et flexible des styles, permettant une structure claire et réutilisable du code, permettant une gestion claire du CSS dans des projets complexes."
+            },  
+            {
+                "title": "Express.js",
+                "logoUrl": "/abilities_logo/expressjs_logo.svg",
+                "text": "Pour créer des API sécurisées et robuste, compatibles avec de nombreux outils et bibliothèques permettant de développer rapidement des API maintenables et prêtes en production. "
+            }
+        ],
+        "linkButton": "Mes autres Compétences"
+    },
     "header": {
         "home": "Francis Berrier",
         "about": "A propos",

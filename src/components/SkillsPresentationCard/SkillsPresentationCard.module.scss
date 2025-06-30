@@ -1,0 +1,32 @@
+@import "../../assets/styles/utils/mixins";
+@import "../../assets/styles/utils/variables";
+
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.logoContainer {
+    img{
+        all:unset;
+        height: 100%;
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 0;
+    height: 100px;
+    box-sizing: border-box; 
+}
+.title {
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: $heavy-weight;
+}
+.text {
+    font-size: 16px;
+}

@@ -6,6 +6,29 @@
         "buttonContact": "Contact",
         "buttonGit": "My Github"
     },
+    "homeSkills": {
+    "entete": "Skills",
+    "title": "My favorite technologies:",
+    "cards": 
+        [
+            {
+            "title": "React",
+            "logoUrl": "/abilities_logo/react_logo.svg",
+            "text": "For building reactive and dynamic websites and web applications using React and Next.js, combining server-side rendering for optimal performance with client-side rendering for dynamic parts."
+            },
+            {
+            "title": "Sass",
+            "logoUrl": "/abilities_logo/sass_logo.svg",
+            "text": "For modular and flexible style management, enabling a clear and reusable code structure that simplifies CSS handling in complex projects."
+            },
+            {
+            "title": "Express.js",
+            "logoUrl": "/abilities_logo/expressjs_logo.svg",
+            "text": "To create secure and robust APIs, compatible with many tools and libraries, allowing fast development of maintainable and production-ready APIs."
+            }
+        ],
+        "linkButton": "My other skills"
+    },
     "header": {
         "home": "Francis Berrier",
         "about": "About",

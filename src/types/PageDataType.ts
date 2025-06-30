@@ -3,10 +3,11 @@ import type { HeaderDataType } from "./HeaderDataType";
 import type { HomeDataType } from "./HomeDataType";
 import type { ContactDatasType } from "./ContactType";
 import type { FilmCardDataType } from "./Film";
-import type { AbilitiesType } from "./AbilitiesType";
+import type { AbilitiesType, SkillsPresentationDatas} from "./AbilitiesType";
 
 export type PageDataType= {
     home: HomeDataType;
+    homeSkills: SkillsPresentationDatas;
     header: HeaderDataType;
     footer: {
 
